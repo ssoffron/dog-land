@@ -8,7 +8,7 @@ import './index.css';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename='/dog-land'>
       <Routes>
         <Route path='/' element={<App />} />
         <Route path='/map' element={<Map />} />
